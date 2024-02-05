@@ -12,7 +12,7 @@ const BlogList = () => {
 
             {posts.length === 0 ? (
                 <div className="card p-3">
-                    <p className="text-center">Currently, there are no blogs to display. You can contribute by adding one. <a href="/add">Click here</a> to get started.</p>
+                    <p className="text-center">Currently, there are no blogs to display. You can contribute by adding one. <a href="/BlogPostApp/add">Click here</a> to get started.</p>
                 </div>
             ) : (
                 posts && posts.map((post) => (
