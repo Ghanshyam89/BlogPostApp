@@ -33,7 +33,7 @@ function App() {
         <div className="App">
           <Navbar />
           <Routes>
-            <Route path="/BlogPostApp" exact element={<BlogList />} />
+            <Route path="/BlogPostApp/" exact element={<BlogList />} />
             <Route path="/BlogPostApp/add" element={<AddPost />} />
 
             <Route path="/BlogPostApp/post/:id" element={<PostDetail />} />

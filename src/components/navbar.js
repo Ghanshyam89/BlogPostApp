@@ -4,7 +4,7 @@ import { Link, useLocation } from "react-router-dom";
 function Navbar() {
     const location = useLocation();
 
-    const isHomePage = location.pathname === "/BlogPostApp";
+    const isHomePage = location.pathname === "/BlogPostApp/";
 
     return (
         <nav className="navbar navbar-dark bg-dark">
