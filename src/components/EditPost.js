@@ -37,7 +37,7 @@ const EditPost = () => {
     return (
         <div>
             <div className="mt-3">
-                <Link to={`/post/${post.id}`} className="mx-3 text-dark card-link">&laquo; Back</Link>
+                <Link to={`/BlogPostApp/post/${post.id}`} className="mx-3 text-dark card-link">&laquo; Back</Link>
             </div>
             
             <h2 className="text-center">Edit Post</h2>

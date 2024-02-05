@@ -12,12 +12,13 @@ const BlogList = () => {
 
             {posts.length === 0 ? (
                 <div className="card p-3">
-                    <p className="text-center">Currently, there are no blogs to display. You can contribute by adding one. <a href="/BlogPostApp/add">Click here</a> to get started.</p>
+                    <p className="text-center">Currently, there are no blogs to display. You can contribute by adding one. <Link to={`/BlogPostApp/add`}>Click here</Link> to get started.</p>
+                    {/* <a href="/BlogPostApp/add">Click here</a> */}
                 </div>
             ) : (
                 posts && posts.map((post) => (
                     <div key={post.id}>
-                        <Link to={`/post/${post.id}`} className="card text-left text-dark p-3 my-3 card-link">
+                        <Link to={`/BlogPostApp/post/${post.id}`} className="card text-left text-dark p-3 my-3 card-link">
                             <h4>{post.title}</h4>
                             <p className="text-justify">{post.content}</p>
                         </Link>

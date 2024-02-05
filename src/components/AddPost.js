@@ -37,7 +37,7 @@ const AddPost = () => {
     return (
         <div>
             <div className="mt-3">
-                <Link to="/" className="mx-3 text-dark card-link">&laquo; Back</Link>
+                <Link to="/BlogPostApp" className="mx-3 text-dark card-link">&laquo; Back</Link>
             </div>
 
             <div className="container">
