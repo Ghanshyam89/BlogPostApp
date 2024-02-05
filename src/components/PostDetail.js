@@ -44,7 +44,7 @@ const PostDetail = () => {
                     <Link className="col-sm-1 btn" onClick={handleLikeClick}>
                         {isLiked ? 'Unlike' : 'Like'}
                     </Link>
-                    <Link className="col-sm-1 btn" to={`/post/edit/${post.id}`}>Edit</Link>
+                    <Link className="col-sm-1 btn" to={`/BlogPostApp/post/edit/${post.id}`}>Edit</Link>
                     <Link className="col-sm-2 btn" onClick={handleDelete}>Delete</Link>
                 </div>
                 <p>Category: {post.category}</p>
