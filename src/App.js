@@ -33,12 +33,12 @@ function App() {
         <div className="App">
           <Navbar />
           <Routes>
-            <Route path="/" exact element={<BlogList />} />
-            <Route path="/add" element={<AddPost />} />
+            <Route path="/BlogPostApp" exact element={<BlogList />} />
+            <Route path="/BlogPostApp/add" element={<AddPost />} />
 
-            <Route path="/post/:id" element={<PostDetail />} />
+            <Route path="/BlogPostApp/post/:id" element={<PostDetail />} />
 
-            <Route path="/post/edit/:id" element={<EditPost />} />
+            <Route path="/BlogPostApp/post/edit/:id" element={<EditPost />} />
           </Routes>
         </div>
       </Router>
